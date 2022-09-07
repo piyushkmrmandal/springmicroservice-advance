@@ -1,0 +1,31 @@
+_id: req_cebc951860f24411a28b00a9b1662cca
+type: Request
+parentId: wrk_8f0b0aa67bf9443db2a6cf4803339eef
+modified: 1662567419892
+created: 1662543735270
+url: http://localhost:8080/api/v1/beer/83fda883-86d9-4913-9729-91f20973fa52
+name: Update Existing Beer
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"beerName": "Kingfisher Premium",
+    	"beerStyle": "Bold",
+    	"upc": 9
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_69a7ac193dac4614a65ef64898c9a848
+authentication: {}
+metaSortKey: -1662566726020.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

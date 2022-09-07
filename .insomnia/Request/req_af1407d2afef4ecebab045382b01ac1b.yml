@@ -1,0 +1,31 @@
+_id: req_af1407d2afef4ecebab045382b01ac1b
+type: Request
+parentId: wrk_8f0b0aa67bf9443db2a6cf4803339eef
+modified: 1662567418072
+created: 1662543240076
+url: http://localhost:8080/api/v1/beer
+name: Create new Beer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"beerName": "Corona",
+    	"beerStyle": "Premium",
+    	"upc": 8
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_69a7ac193dac4614a65ef64898c9a848
+authentication: {}
+metaSortKey: -1662566726033
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

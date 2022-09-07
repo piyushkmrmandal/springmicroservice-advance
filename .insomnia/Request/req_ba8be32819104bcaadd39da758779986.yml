@@ -1,0 +1,29 @@
+_id: req_ba8be32819104bcaadd39da758779986
+type: Request
+parentId: wrk_8f0b0aa67bf9443db2a6cf4803339eef
+modified: 1662567410755
+created: 1662567318352
+url: http://localhost:8080/api/v1/customer/
+name: Create New Customer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"Piyush Kumar"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e7044b1b646545f2acf2ed06fe7959b6
+authentication: {}
+metaSortKey: -1661445155285
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

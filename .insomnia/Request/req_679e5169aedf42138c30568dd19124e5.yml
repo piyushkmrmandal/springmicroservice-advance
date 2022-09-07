@@ -1,0 +1,29 @@
+_id: req_679e5169aedf42138c30568dd19124e5
+type: Request
+parentId: wrk_8f0b0aa67bf9443db2a6cf4803339eef
+modified: 1662567672989
+created: 1662567622151
+url: http://localhost:8080/api/v1/customer/83fda883-86d9-4913-9729-91f20973fa52
+name: Update Existing Customer
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"Ashish"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d769459b58f549c0a7d1ff963c73f601
+authentication: {}
+metaSortKey: -1661445155235
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

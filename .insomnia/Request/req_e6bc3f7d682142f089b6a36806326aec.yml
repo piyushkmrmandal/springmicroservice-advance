@@ -1,0 +1,21 @@
+_id: req_e6bc3f7d682142f089b6a36806326aec
+type: Request
+parentId: wrk_8f0b0aa67bf9443db2a6cf4803339eef
+modified: 1662567415724
+created: 1661445155310
+url: http://localhost:8080/api/v1/beer/83fda883-86d9-4913-9729-91f20973fa52
+name: Get Beer general
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1662566726058
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
